@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    /** Colors */
+    --Coral-Reef: #fe7e6b;
+    --Jacarta: #3a3d5d;
+    --Dark-Gunmetal: #25242c;
+    /** Fonts */
+    --overall-fontsize: 62.5%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: var(--overall-fontsize);           /** 16px * 0.625 = 10px  Conversion en base 10*/
+}
+
+
+body {
+    font-size: 1.4rem;          /** 14px; */
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.main-container {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 /** Header */
 .header {
     background-color: var(--Coral-Reef);
