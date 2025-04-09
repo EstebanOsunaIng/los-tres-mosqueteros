@@ -1,4 +1,120 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    /** Colors */
+    --Coral-Reef: #fe7e6b;
+    --Jacarta: #3a3d5d;
+    --Dark-Gunmetal: #25242c;
+    /** Fonts */
+    --overall-fontsize: 62.5%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: var(--overall-fontsize);           /** 16px * 0.625 = 10px  Conversion en base 10*/
+}
+
+
+body {
+    font-size: 1.4rem;          /** 14px; */
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.main-container {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/** Header */
+.header {
+    background-color: var(--Coral-Reef);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 8rem;
+    height: 8rem;
+}
+
+.logo-site {
+    text-decoration: none;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.navbar__left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar__center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-hamburguer {
+    color: white;
+    font-size: 2.4rem;
+}
+
+.navbar__right {
+    display: none;
+}
+
+.menu-main {
+    display: none;
+}
+
+.menu-authentication {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-authentication .item-3 {
+    display: none;
+}
+
+.btn {
+    border: 1px solid yellow;
+    padding: .6rem 1.2rem;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: white;
+    border: 1px solid white;
+    color: var(--Coral-Reef);
+}
+
+.btn-outline-primary {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-secondary {
+    border: 1px solid transparent;
+    color: white;
+}
 /** Main */
 .main {
     flex-grow: 1;
