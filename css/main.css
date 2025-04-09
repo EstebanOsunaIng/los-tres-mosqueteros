@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
@@ -116,7 +115,6 @@ body {
     border: 1px solid transparent;
     color: white;
 }
-=======
 /** Main */
 .main {
     flex-grow: 1;
@@ -210,7 +208,6 @@ body {
     font-size: 1.2rem;
 }
 
->>>>>>> 4a7607ba6bec13dd740f51ed0f922aa916721b75
 .footer {
     background-color: var(--Dark-Gunmetal);
 }
